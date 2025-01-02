@@ -1,0 +1,88 @@
+/* *{
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+    /* box-sizing: border-box; 
+} */
+.border{
+    width:806px;
+    height:1050px;
+    border:1px solid black;
+    position:relative;
+    left:400px;
+}
+.firstheading{
+    text-align:center;
+}
+.navtag{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.navtag img{
+    width:20px;
+    height:10px;
+}
+.first_para{
+    padding-left:50px;
+    padding-right:50px;
+}
+.education h1{
+    padding-left:50px;
+}
+.Degrees{
+    position:relative;
+    padding-left:50px;
+    
+}
+.percentages{
+    position:absolute;
+    float:right;
+    left:680px;
+    top:300px;
+    list-style-type:none;
+}
+.projects h1{
+    padding-left:50px;
+}
+.bold_one{
+    margin:0;
+   padding-left:50px;
+}
+.bold_two{
+    margin:0;
+    padding-left:50px;
+}
+.first_content{
+    padding-left:50px;
+    margin:0;
+}
+.second_content{
+    padding-left:50px;
+    margin:0;
+}
+.skills{
+    margin:0;
+    padding-left:35px;
+}
+.certification{
+    margin:0;
+    padding-left:35px;
+}
+.skills_first, .skills_second, .skills_third{
+    margin:5px;
+    padding-left:12px;
+}
+.skills_h1 {
+    margin:15px;
+}
+ .cert_first, .cert_second, .cert_third{
+    margin:5px;
+    padding-left:12px;
+}
+.cert_h1{
+    margin:15px;
+}
